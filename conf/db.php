@@ -6,6 +6,7 @@
 		const DB = "heroku_dc0e8d8db09d6e3";
 
 		public static function connToDB(){
+			echo 1;
 			$user = self::USER;
 			$pass = self::PASSWORD;
 			$host = self::HOST;
