@@ -33,7 +33,7 @@
 			include CONTROLLER_PATH . $controllerName . ".php";
 
 			include MODEL_PATH . $modelName . ".php";
-			echo(CONTROLLER_PATH . $controllerName . ".php");
+			echo(ROOT);
 			$controller = new $controllerName();
 			$controller -> $action();
 			/*
