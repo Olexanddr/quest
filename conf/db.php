@@ -10,7 +10,7 @@
 			$pass = self::PASSWORD;
 			$host = self::HOST;
 			$db = self::DB;
-			$conn = new PDO("mysql:dbname = $db;host = $host", $user, $pass");
+			$conn = new PDO("mysql:dbname = $db;host = $host", $user, $pass);
 			return $conn;
 		}
 	}
