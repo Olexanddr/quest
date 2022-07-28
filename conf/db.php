@@ -2,8 +2,8 @@
 	class DB{
 		const USER = "b962b824a8327d";
 		const PASSWORD = "9bd62f51";
-		const HOST = "eu-cdbr-west-03.cleardb.net/heroku_dc0e8d8db09d6e3";
-		const DB = "test";
+		const HOST = "eu-cdbr-west-03.cleardb.net";
+		const DB = "heroku_dc0e8d8db09d6e3";
 
 		public static function connToDB(){
 			$user = self::USER;
