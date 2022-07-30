@@ -19,11 +19,11 @@
 			
 			<select name="country" class = "select-country">
   				<option value="Китай">Китай</option>
-  				<option value="Украина">Україна</option>
-  				<option value="Греция">Греція</option>
-  				<option value="Чехия">Чехія</option>
-  				<option value="Англия">Англія</option>
-  				<option value="Португалия">Португалія</option>
+  				<option value="Україна">Україна</option>
+  				<option value="Греція">Греція</option>
+  				<option value="Чехія">Чехія</option>
+  				<option value="Англія">Англія</option>
+  				<option value="Португалія">Португалія</option>
 			</select><br>
 			<input type = "submit" value = "Створити" class = "btn btn-success but-create">
 			<a href = "/conferences" class = "btn btn-secondary ">Назад</a>
