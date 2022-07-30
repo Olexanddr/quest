@@ -24,11 +24,11 @@
 			
 			<select name="country" class = "select-country">
   				<option value="Китай" <?php if($pageData["country"] == "Китай"){echo "selected";}?>>Китай</option>
-  				<option value="Україна" <?php if($pageData["country"] == "Україна"){echo "selected";}?>>Украина</option>
-  				<option value="Греція" <?php if($pageData["country"] == "Греція"){echo "selected";}?>>Греция</option>
-  				<option value="Чехія" <?php if($pageData["country"] == "Чехія"){echo "selected";}?>>Чехия</option>
-  				<option value="Англія" <?php if($pageData["country"] == "Англія"){echo "selected";}?>>Англия</option>
-  				<option value="Португалія" <?php if($pageData["country"] == "Португалія"){echo "selected";}?>>Португалия</option>
+  				<option value="Україна" <?php if($pageData["country"] == "Україна"){echo "selected";}?>>Україна</option>
+  				<option value="Греція" <?php if($pageData["country"] == "Греція"){echo "selected";}?>>Греція</option>
+  				<option value="Чехія" <?php if($pageData["country"] == "Чехія"){echo "selected";}?>>Чехія</option>
+  				<option value="Англія" <?php if($pageData["country"] == "Англія"){echo "selected";}?>>Англія</option>
+  				<option value="Португалія" <?php if($pageData["country"] == "Португалія"){echo "selected";}?>>Португалія</option>
 			</select><br>
 			<input type = "submit" class = "btn btn-success but-create" value="Зберегти">
 			<a href = "/conferences" class = "btn btn-secondary but-create">Назад</a>
